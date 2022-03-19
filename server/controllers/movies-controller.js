@@ -4,7 +4,7 @@ async function getMovies(req, res) {
   try {
     const movies = await MoviesService.getAllMovies()
     let data = movies.results.map((item) => {
-      return { id: item.id, title: item.title || item.name, media_type: item.media_type }
+      return { id: item.id, title: item.title || item.name, media_type: item.media_type,poster:item.backdrop_path }
     })
     return res.status(200).json(data)
   } catch (err) {

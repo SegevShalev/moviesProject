@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: black;
+    
+  }
+  
+  *::-webkit-scrollbar{
+    display: none;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+      monospace;
+  }
+  
+  .layout {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .loginCon {
+    display: flex;
+    flex-direction: column;
+    width:352px;
+    
+  }
+  
+  .loginText {
+    display: flex;
+  }
+  
+  .loginButtoms {
+    display:flex;
+    justify-content: center;
+  }
+  .loginButtoms * {
+    border:none;
+    cursor: pointer;
+  }
+  
+  .loginCon * {
+    border-radius: 4px;
+  }
+  
+  .errorLog{
+    color:red;
+    font-size:12px
+  }
+  .white {
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .bgRed {
+    background-color: rgb(247, 60, 60);
+    margin-right: 2px;
+    
+  }
+  
+  .bgRed:hover {
+    background-color: rgb(209, 4, 4)
+  }
+  .bgBlue {
+    background-color: rgb(35, 104, 255);
+    margin-left: 2px;
+    
+  }
+  
+  .bgBlue:hover{
+    background-color: rgb(1, 1, 197);
+  }
+  
+  .btnBlack{
+    background-color:rgb(53, 52, 54);
+    color:white;
+    border-radius: 10px;
+  }
+  
